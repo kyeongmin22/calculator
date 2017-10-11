@@ -49,11 +49,19 @@ int sub(int number1, int number2)
 int multi(int number1, int number2)
 {
 	//TODO implementation
-	return 0;
+	result = number1 * number2;
+	return result;
 }
  
 int div(int number1, int number2)
 {
 	//TODO implementation
-	return 0;
+	result = 0;
+	if(number2 != 0){
+		result = number1/number2;
+	}
+	else{
+		printf("Zero not divided");
+	}
+	return result;
 }
