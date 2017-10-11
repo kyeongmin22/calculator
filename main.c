@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	scanf("%d %c %d", &number1, &operator, &number2);
 	
 	switch (operator)
-	{
+	{sdfasdgsdfsfgasdf
 		case '+':
 			result = add(number1, number2);
 			break;
@@ -37,7 +37,7 @@ int main(int argc, char* argv[])
 int add(int number1, int number2)
 {
 	//TODO implementation
-	return  number1+number2;
+	return  nr1+number2;
 }
  
 int sub(int number1, int number2)
